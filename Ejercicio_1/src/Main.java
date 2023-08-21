@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Ingrese horas trabajadas: ");
         Scanner imput = new Scanner(System.in);
         horasTrab=imput.nextInt();
-
+        //comment
 
         HorasExtras horas = new HorasExtras(horasTrab,ingreso);
         int a=horas.calcHoras(horasTrab,jornada,ingreso);
